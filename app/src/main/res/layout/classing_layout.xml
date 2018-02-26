@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="true"
+    android:background="@drawable/bg00"
+    tools:context="com.arcry.android.onlyface.ClassingActivity">
+
+    <TextView
+        android:id="@+id/classId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/studentIn"
+        android:layout_centerHorizontal="true"
+        android:ems="20"
+        android:gravity="center"
+        android:text="" />
+
+    <Button
+    android:id="@+id/studentIn"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_above="@+id/faceSign"
+    android:layout_centerHorizontal="true"
+    android:text="添加同学" />
+
+    <Button
+    android:id="@+id/faceSign"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:text="刷脸签到" />
+
+    <Button
+    android:id="@+id/class_case"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/faceSign"
+    android:layout_centerHorizontal="true"
+    android:text="上课情况" />
+
+</RelativeLayout>
